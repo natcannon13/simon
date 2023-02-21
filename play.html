@@ -28,12 +28,25 @@
             </nav>
             <hr/>
         </header>
-        <main>
+        <main class = "bg-secondary">
             <div class="players">
                 Player:
-                <span class="player_name">Mystery player</span>
-            </div>
-
+                <span class="player-name">Mystery player</span>
+              </div>
+              <div class="game">
+                <div class="button-container">
+                  <button class="button-top-left"></button>
+                  <button class="button-top-right"></button>
+                  <button class="button-bottom-left"></button>
+                  <button class="button-bottom-right"></button>
+                    <div class="controls center">
+                        <div class="game-name">Simon<sup>&reg;</sup></div>
+                        <div class="score center">--</div>
+                        <button class="btn btn-primary">Reset</button>
+                    </div>
+                </div>
+              </div>
+<!--
         <br/>
 
         <div>
@@ -77,13 +90,13 @@
                     </td>
                 </tr>
             </table>
-        </div>
+        </div> -->
         </main>
-        <footer>
-            <hr/>
+        <footer class = "bg-dark text-dark text-muted">
+            <div class = "container-fluid">
             <span class="text-reset"> Nat Cannon </span>
-            <br/>
-            <a href="https://github.com/natcannon13/simon">GitHub</a>
+            <a class = "text-reset" href="https://github.com/natcannon13/simon">Source</a>
+        </div>
         </footer>
     </body>
 </html>
